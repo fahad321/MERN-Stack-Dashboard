@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+#Analytics-Page {
+    display: flex;
+}
+#Analytics-container .chartjs-render-monitor {
+    display: inline !important;
+}
+
+.chartjs-render-monitor {
+    height: 430px !important;
+    width: 660px !important;
+}
+#Analytics-container {
+    overflow: hidden;
+}
+
+#Analytics-table {
+    padding: 20px;
+    border: 2px solid black;
+    height: 80vh;
+    text-align: center;
+    overflow-y: scroll;
+    float: right !important;
+}
+
+.Analytics-PageHeader {
+    font-size: 25px;
+    font-weight: bold;
+    color: #3972a2;
+    margin-bottom: 20px;
+}
+
+#title {
+    text-align: Center;
+    font-family: arial, sans-serif;
+    background-color: #4caf50;
+}
+
+#LogOut {
+    float: right;
+}
+
+#students td,
+#students th {
+    border: 1px solid #ddd;
+    padding: 25px;
+}
+
+#students tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#students tr:hover {
+    background-color: #ddd;
+}
+
+#students th {
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+    position: absolute;
+    height: 120px !important;
+    top: -4px;
+    left: 0;
+    width: 170px !important;
+}
+.Dropdown-control {
+    width: 70px !important;
+}
+.MuiTableContainer-root {
+    overflow: auto;
+}
+
+.div {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+.MuiButton-root {
+    text-transform: none !important;
+}
+
+.info {
+    opacity: 0;
+}
+
+.info:hover {
+    opacity: 1;
+}
+.MuiSvgIcon-fontSizeLarge {
+    height: 38px !important;
+    width: 38px !important;
+}
+
+.MuiFormControl-root {
+    padding-top: 6px !important;
+}
+
+.MuiSelect-outlined.MuiSelect-outlined {
+    padding-bottom: 1px !important;
+}
+
+.MuiGrid-spacing-xs-3 {
+    margin: 5px !important;
+}
+
+.makeStyles-drawerPaper-6 {
+    width: 200px !important;
+}
+
+.makeStyles-drawer-5 {
+    width: 200px !important;
+}
