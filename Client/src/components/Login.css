@@ -1,0 +1,23 @@
+@media all and (min-width: 580px) {
+    .Login {
+        padding: 200px 0;
+        size: large;
+    }
+
+    .Login form {
+        margin: auto;
+        max-width: 200px;
+        height: 150px !important;
+    }
+}
+
+.Textfields {
+    width: 195px;
+    height: 30px;
+}
+
+.buttonW {
+    width: 100px !important;
+    height: 33px !important;
+    background-color: lightblue;
+}
